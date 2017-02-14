@@ -5,7 +5,7 @@ serial_port: '/dev/ttyUSB0'
 baud_rate: 1000000
 
 # Coordinate frame of the GPS receiver with respect to the base link
-frame_id: 'base_link'
+frame_id: 'gps_link'
 
 # ROS message types to be published
 publish_navsatfix_rtk: true
